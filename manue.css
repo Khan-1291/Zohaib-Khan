@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    text-align: center;
+}
+
+button {
+   
+    align-self: center;
+    background-color: aqua;
+    margin: 10px;
+    line-height: 20px;
+    border: 2px solid black;
+}
+
+#z {position: ;
+    background-color: antiquewhite;
+
+}
+
+
+
+.box {position: relative;
+    background-color: rgb(11, 233, 233);
+    width: 400px;
+    height: 300px;
+    margin-left: 33px;
+    display: inline-block;
+    margin-top: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 800;
+    
+    text-align: center;
+    text-emphasis-color: dark rgb(173, 24, 24)
+;
+}
+
+
+
+
+
+@media only screen and (min-width:992px) {
+    .box {
+        width: 30%;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+
+    .box1,
+    .box2 {
+        width: 45%;
+    }
+
+    .box3 {
+        width: 95%;
+        
+    }
+}
+
+
+
+
+
+
+
+
+
+
+#box {
+    background-color: antiquewhite;
+    border: 2px solid black;
+    position: relative;
+    line-height: 40px;
+    text-align: center;
+}
